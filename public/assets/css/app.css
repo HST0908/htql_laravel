@@ -1,0 +1,82 @@
+/*===================header ==================*/
+header {
+    background: linear-gradient(180deg,var(--main-cl), var(--pry-cl));
+    max-height: 7.5rem;
+    font-family: "Montserrat";
+    padding: .625rem 0;
+    color: #FFF;
+}
+
+.logo-box > .main-logo {
+    width: auto;
+    overflow: hidden;
+}
+
+.logo-box > .logo-name > .title{
+    margin: 0;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1563rem;
+}
+
+.menu_user > .menu_drop-user
+.img-user > .img_wrap {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: .125rem solid #FFF;
+}
+
+.menu_user > .menu_drop.menu_drop-user {
+    width: fit-content;
+    height: auto;
+    margin-left: auto;
+}
+
+.menu_user > .menu_drop.menu_drop-user .drop_title > 
+.user-name {
+    font-family: inherit;
+}
+
+.menu_user > .menu_drop.menu_drop-user 
+.drop_list .drop_item {
+    color: var(--text-cl);
+    transition: all 0.4s ease-in-out;
+}
+
+.menu_user > .menu_drop.menu_drop-user 
+.drop_list::before {
+    content: '';
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFF;
+    top: -0.5rem;
+    left: 20%;
+}
+
+.menu_user > .menu_drop.menu_drop-user 
+.drop_list .drop_item:hover {
+    background: var(--main-cl);
+    color: #FFF;
+}
+
+.menu_user > .menu_drop.menu_drop-user .drop_list .drop_item a{
+    padding: .625rem;
+    display: flex;
+    width: 100%;
+    font-family: 'Montserrat';
+    color: inherit;
+    font-weight: 500;
+}
+
+
+.menu_user > .menu_drop.menu_drop-user 
+.drop_list .drop_item:last-child {
+    border-top: .0625rem solid #CCC;
+}
+.menu_user > .menu_drop.menu_drop-user 
+.drop_list .drop_item:last-child a {
+    gap: .625rem;
+}
